@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "187874809065",
+    "project_id": "velora-c2959",
+    "storage_bucket": "velora-c2959.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:187874809065:android:43f39f8bb2486119b78c78",
+        "android_client_info": {
+          "package_name": "com.example.e_commerce"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnZYeZc1YtJlmmAlnYKqbkXmtzjNEec8M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

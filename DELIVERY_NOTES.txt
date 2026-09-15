@@ -1,0 +1,21 @@
+Velora delivery build notes
+
+This package contains the full project supplied in the uploaded archive, with conservative fixes focused on:
+- Android/iOS location permissions and graceful location handling
+- Shipping address persistence/default-address logic
+- User-safe error messages
+- Cart success/failure semantics and duplicate submission protection
+- Product grid sizing and product-card responsiveness
+- Product details fallback image and Hero consistency
+- Home request race protection
+- Removal of confirmed unused direct dependencies
+
+Before client delivery on a machine with Flutter installed:
+1. flutter clean
+2. flutter pub get
+3. flutter analyze
+4. flutter test
+5. flutter run
+6. Verify release signing/keystore and Firebase/OSM production configuration.
+
+No claim of zero runtime bugs is made without device/emulator execution.
